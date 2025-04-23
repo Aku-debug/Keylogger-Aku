@@ -1,6 +1,8 @@
 <h1 align="center">🕵️‍♂️ AkuKeylogger</h1>
 <p align="center">Minimalist C++ system monitor & keylogger — for educational purposes only.</p>
 
+"Still under development, may not function correctly."
+
 ---
 
 ## 🚀 Özellikler | Features
